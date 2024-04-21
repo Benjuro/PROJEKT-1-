@@ -34,6 +34,7 @@ for i in range(N):
 plt.scatter(time, position)
 plt.ylabel("\u03B8 [rad]")
 plt.xlabel("t [s]")
+plt.grid()
 plt.show()
 
 solution = g(np.array(time))
