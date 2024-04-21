@@ -41,7 +41,7 @@ solution = g(np.array(time))
 print(np.abs(solution[len(solution) - 1] - position[len(position) - 1]))
 
 
-
+#
 
 
 
