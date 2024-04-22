@@ -31,7 +31,7 @@ for i in range(N):
     time.append(tn)
     position.append(y[0])
 
-plt.scatter(time, position)
+plt.plot(time, position)
 plt.ylabel("\u03B8 [rad]")
 plt.xlabel("t [s]")
 plt.grid()
@@ -42,8 +42,4 @@ print(np.abs(solution[len(solution) - 1] - position[len(position) - 1]))
 
 
 #
-
-
-
-
 
