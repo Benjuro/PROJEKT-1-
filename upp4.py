@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 f = 2 * np.pi
 f0 = 3/2 * f
 beta = 1/4 * f0
-b = 1.06
+b = 1
 y = np.array([0,0])
 T = 40
 N = 800
